@@ -1,5 +1,10 @@
 import streamlit as st 
 import joblib
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "model.joblib")
+model = joblib.load(MODEL_PATH)
 
 # Page configuration
 st.set_page_config(
@@ -67,8 +72,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Load model
-model = joblib.load('model.joblib')
+
 
 # Header section
 st.markdown("<h1>📰 News Category Prediction</h1>", unsafe_allow_html=True)

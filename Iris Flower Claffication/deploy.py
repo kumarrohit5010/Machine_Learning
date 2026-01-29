@@ -20,3 +20,6 @@ sample=[[sepal_length,sepal_width,petal_length,petal_width]]
 if st.button("predict"):
     prediction=model.predict(sample)[0]
     st.success(f"🌻predicted species is {prediction}🌻")
+
+
+    # https://irris-classification.streamlit.app/

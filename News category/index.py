@@ -115,3 +115,6 @@ if st.button("🔍 Predict Category", use_container_width=True):
 
 
 #https://news-category.streamlit.app/
+
+
+#to run: streamlit run dev

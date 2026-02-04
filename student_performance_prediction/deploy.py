@@ -54,3 +54,8 @@ if st.button("🔮 Predict Performance"):
         st.warning("⚠️ Predicted Grade: C (Average Performance)")
     else:
         st.error("❌ Predicted Grade: D (Needs Improvement)")
+
+
+
+
+#https://stdntperformance.streamlit.app/

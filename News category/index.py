@@ -111,3 +111,7 @@ if st.button("🔍 Predict Category", use_container_width=True):
         st.success(f"✅ **Predicted Category:** `{prediction}`", icon="✅")
     else:
         st.warning("⚠️ Please enter some text before predicting!", icon="⚠️")
+
+
+
+#https://news-category.streamlit.app/
